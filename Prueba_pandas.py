@@ -19,3 +19,4 @@ print("El Total es: ", total)
 print("La suma parcial (PB) es ", df.loc[df['PB']>0, 'PB'].sum())
 
 df.reset_index().to_csv('Final.csv',header=True, index=False)
+
