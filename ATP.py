@@ -2,5 +2,5 @@
 # coding: utf-8
 
 import pandas as pd
-datos=pd.read_csv('data.csv')
-print(datos.head(3))
+datos=pd.read_csv('Data.csv')
+print(datos[45:50])
