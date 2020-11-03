@@ -1,7 +1,7 @@
 import pandas as pd
 datos=pd.read_csv('minutos2.csv')
 df=pd.DataFrame(datos)
-#print(df)
+print(df)
 df['PB']=df['B'].diff(1)
 
 alto=df.loc[0,'B']
